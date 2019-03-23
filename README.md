@@ -16,7 +16,7 @@ Project Goals Include:
 The source code for this project is available on github.
 
 
-##Installation
+## Installation
 
 git clone https://github.com/jstein22/ECE590FinalProject.git
 cd elma_project
@@ -37,11 +37,11 @@ s: Robot stops moving
 q: Stop the simulation
 e: Release an enemy
 
-##Testing
+## Testing
 
 To test the functionality of the simulation, run the simulation and interact with it by typing bin/robot_heo
 
-##Architecture
+## Architecture
 
 Robot Hero was designed based off of the architecture in the stopwatch example. The majority of the classes were thought of based on the Homework that was worked on in week 7. The idea to add an intruder is what makes the robot a hero, because he needed areason to be a hero. 
 
@@ -50,17 +50,17 @@ The choice to make an arrow appear as if it were fired towards the enemy rather 
 I decided to adopt the organization philosophy that was outlined in the stopwatch project example that was provided on professor klaving git. This organization made so much more sense in my head than the way things were organized back in homework 7. I felt like I could have kept adding more and more functionality to the project because as I was building the project my confidence in my development skills kept getting stronger. 
 
 
-##Results
+## Results
 
 Throughout the development of the project I decided to build it incrementally. I first started with just having a working on and off state of the robot. I quickly realized that having a working and responsive UI would make development much easier so I focused on creating string events to add to a list which I could display to the screen to understand what what was going on while I was developing. The program initializes to show just a box, however when it the user turns on the robot the robot evolves into its full form. From there the robot can wander until the user becomes bored and wants to release an enemy (or the enemy can be released right away). If the user decides to release an enemy before turning on the robot, the robot will turn itself on (with its innovative enemy detection scheme). The robot will always automatically deploy its shield when an enemy is detected. The only thing the robot can and will do when the enemy is there is to fire an arrow at the enemy to destroy it. This will then allow the robot to do anything it pleases again.
 
 
 
-##Acknowledgements
+## Acknowledgements
 
 I worked on my own on this project but talked about my pain points I found with Vlad and Avellino.
 
-##References
+## References
 
 A list of articles that assited in my development are shown below. The ncurses was where most of the help was needed. The rest of the help came from referencing the example project that was provided by Professor Klavins.
 
